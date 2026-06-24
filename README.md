@@ -1,10 +1,10 @@
-#  WatchWatt — Smart Energy Management System
+# WatchWatt — Smart Energy Management System
 
 WatchWatt is an end-to-end smart energy management system that autonomously controls artificial lighting based on real-time human presence detection. By fusing computer vision, IoT hardware, and a full-stack web platform, WatchWatt eliminates the single most avoidable source of energy waste in institutional buildings — lights burning in unoccupied spaces.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [System Architecture](#system-architecture)
@@ -42,12 +42,12 @@ WatchWatt follows a layered, event-driven architecture connecting perception, de
 
 | Layer | Component | Technology |
 |---|---|---|
-| 👁️ **Perception** | Camera Feed | OpenCV VideoCapture (640×480) |
-| 🧠 **Intelligence** | Detection Engine | YOLOv8n (Ultralytics) |
-| 🎯 **Decision** | Zone Classifier | SmartVision v4.2 (Python) |
-| 📡 **Communication** | Serial Link | PySerial @ 115,200 baud UART |
-| ⚡ **Actuation** | Relay Controller | ESP32 + HW-281 8-Channel Relay |
-| 📊 **Monitoring** | Web Dashboard | Flask + MongoDB · Railway Deployment |
+| **Perception** | Camera Feed | OpenCV VideoCapture (640×480) |
+| **Intelligence** | Detection Engine | YOLOv8n (Ultralytics) |
+| **Decision** | Zone Classifier | SmartVision v4.2 (Python) |
+| **Communication** | Serial Link | PySerial @ 115,200 baud UART |
+| **Actuation** | Relay Controller | ESP32 + HW-281 8-Channel Relay |
+| **Monitoring** | Web Dashboard | Flask + MongoDB · Railway Deployment |
 ---
 
 ## Technology Stack
